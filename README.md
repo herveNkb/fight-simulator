@@ -11,7 +11,8 @@ __Utilisation des *classes* et *l'héritage* dans un petit jeu qui se joue dans 
 ------------------
 
 ### Comprendre la structure des classes
-
+  
+    
 
 __La classe Personnage__
 
