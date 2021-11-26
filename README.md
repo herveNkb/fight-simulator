@@ -38,4 +38,6 @@ __La classe Personnage__
   * Aucune. Se contente d'appeler le constructeur de Personnage, en lui donnant en paramétres (pseudo, "magicien", 170, 90).  
 
  *Méthodes:*  
- * __attaquer(personnage)__-Prends en paramétre le personnage adverse (donc un objet). Réduit la santé du personnage adverse selon le nombre de dégâts que fait le personnage en cours, et affiche "[pseudo] attaque [personnage.pseudo] en lançant un sort ([attaque]  dégats)". Ensuite, appelle la fonction __evoluer()__. Puis la fonction __verifierSante()__ du personnage adverse.
+ * __attaquer(personnage)__ - Prends en paramétre le personnage adverse (donc un objet). Réduit la santé du personnage adverse selon le nombre de dégâts que fait le personnage en cours, et affiche "[pseudo] attaque [personnage.pseudo] en lançant un sort ([attaque]  dégats)". Ensuite, appelle la fonction __evoluer()__. Puis la fonction __verifierSante()__ du personnage adverse.  
+ * __coupSpecial(personnage)__ - Prends en paramètre le personnage adverse (donc un objet). Réduit la santé du pesonnage adverse selon le nombre de dégâts que fait le personnage en cours, __fois 5__, et affiche "[pseudo] attaque avec son coup spécial puissance des arcanes [personnage.pseudo] ([attaque * 5] dégâts)". Ensuite, appelle la fonction __evoluer()__. Puis, appelle la fonction __verifierSante()__ du personnage adverse.  
+  
