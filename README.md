@@ -54,3 +54,17 @@ _Méthodes:_
 
 - **attaquer(personnage)** - Prend en paramètre le personnage adverse (donc un objet). Réduit la santé du personnage adverse selon le nombre de dégâts que fait le personnage en cours, et affiche "[pseudo] attaque [personnage.pseudo] avec son épée ([attaque] dégâts)". Ensuite, appelle la fonction **evoluer()**. Puis, appelle la fonction **verifierSante()** du personnage adverse.
 - **coupSpecial(personnage)** - Prend en paramètre le personnage adverse (donc un objet). Réduit la santé du personnage adverse selon le nombre de dégâts que fait le personne en cours, **fois 5**, et affiche "[pseudo] attaque avec son coup spécial haches de guerre [personnage.pseudo] ([attaque * 5] dégâts)". Ensuite, appelle la fonction **evoluer()**. Puis, appelle la fonction **verifierSante()** du personnage adverse.
+
+---
+
+- Étape 1:
+  - Créer la classe Personnage.
+  
+- Étape 2:
+  - Créer la classe Magicien et la faire hériter de la classe Personnage.
+  
+- Étape 3: 
+  - Créer la classe Guerrier et la faire hériter de la classe Personnage.
+  
+- Étape 4:
+  - Initialiser nos personnages et les faire combattre.
